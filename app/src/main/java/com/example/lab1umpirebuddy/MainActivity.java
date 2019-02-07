@@ -1,6 +1,7 @@
 package com.example.lab1umpirebuddy;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -103,10 +104,14 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.title2:
-                totalCountNumber.setText(Integer.toString(mTotalCount));
+                openMain2Activity();
                 break;
         }
         return true;
+    }
+    public void openMain2Activity(){
+        Intent intent = new Intent(this, Main2Activity.class);
+        startActivity(intent);
     }
 }
 
