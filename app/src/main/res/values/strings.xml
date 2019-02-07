@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UmpireBuddy</string>
+    <string name="strikeButton">strike</string>
+    <string name="ballButton">ball</string>
+    <string name="strikeView">strike :</string>
+    <string name="ballView">ball :</string>
+    <string name="strike0">0</string>
+    <string name="ball0">0</string>
+    <string name="out">Out!</string>
+    <string name="walk">Walk!</string>
+    <string name="reset">reset</string>
+    <string name="about">about</string>
+    <string name="about1">UmpireBuddy by Toni Tan</string>
+    <string name="totalCount">Total Out </string>
+    <string name="totalNum">0</string>
+</resources>
+
